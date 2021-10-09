@@ -4,6 +4,9 @@ import pyqrcode as pqr
 import io
 import png
 from time import sleep
+import os
+
+os.makedirs("./Qrcodes")
 
 
 def papai():
@@ -24,6 +27,8 @@ def papai():
         return mamae
 
 # Definindo a função para o programa.
+
+
 def mamae():
 
     while True:
