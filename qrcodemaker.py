@@ -6,12 +6,16 @@ import png
 from time import sleep
 import os
 
-os.makedirs("./Qrcodes")
-
 
 def papai():
 
     while True:
+
+        try:
+            os.makedirs("./Qrcodes")
+
+        except:
+            pass
         # Parte onde você digita o conteúdo do seu QRCODE (Links, Frases, Numero.)
         urlpick = input("Digite o conteúdo ou url do seu QRCODE:  ")
 # Aqui ele processa o que foi digitado acima e cria seu QRCODE.
