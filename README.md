@@ -34,3 +34,9 @@
 ### io
 
 ### os
+
+
+# **Nova Atualização**
+
+
+## _O programa executa quantas vezes o usuário precisar, corrigindo o bug de conseguir repetir o processo apenas 1x e o programa fechar_
