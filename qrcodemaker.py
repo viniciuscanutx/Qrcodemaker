@@ -5,8 +5,9 @@ import io
 import png
 from time import sleep
 import os
+import sys
 
-
+#Função principal do programa.
 def papai():
 
     while True:
@@ -29,6 +30,7 @@ def papai():
         buffer = io.BytesIO()
         url.png(buffer)
         print("Seu QRCode foi gerado!")
+        print("-------------------------------------------------------------------------------")
         sleep(2)
         mamae()
 
@@ -42,19 +44,27 @@ def mamae():
 
 # Opção 1 que retorna o usuário para fazer um novo qrcode.
         if choice == '1':
-            sleep(1)
+            sleep(2)
+            os.system("cls")
             return papai()
 
 # Opção 2 fecha o programa.
         elif choice == '2':
+            print('-------------------------------------------------------------------------------')
             print('Good Bye! =D')
             sleep(2)
-            break
+            return fechar()
+        
 # Opção 3 da qualquer outra coisa digitada que não seja 1 ou 2 como errada e retorna para a seleção!
         else:
             print("Opção errada!")
-            continue
+            sleep(1)
+            os.system("cls")
+            return mamae()
 
+#Feita uma implementação corrigir o bug do script não fechar quando se escolhe a opção (2)
+def fechar():
+    sys.exit()
 
 # Sem isso o programa não roda, rsrsr
 papai()
