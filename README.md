@@ -36,15 +36,3 @@
 ### os
 
 ### sys
-
-
-# **Nova Atualização**
-
-
-## _O programa executa quantas vezes o usuário precisar, corrigindo o bug de conseguir repetir o processo apenas 1x e o programa fechar._
-
-
-## _O programa agora limpa o prompt para o usuário ter uma melhor visualização do que o programa pergunta._
-
-
-## _O programa agora tem separações para melhor entendimento do usuário._
