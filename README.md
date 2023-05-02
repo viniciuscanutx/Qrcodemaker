@@ -16,23 +16,8 @@
 
 
 
-# **O Aplicativo pode conter alguns bugs, mas funciona corretamente.**
-
-#### _Os arquivos ficam salvos em uma pasta chamada QrCode que será criada no mesmo diretório que o .exe estiver._
-
-
 # **QRCODEMAKER**
 
 ## Bibliotecas Usadas:
 
-#### Pyqrcode
-
-#### time
-
-#### png
-
-#### io
-
-#### os
-
-#### sys
+#### Pyqrcode, time, png, io, os, sys
